@@ -44,7 +44,7 @@ public class ConsumerConfiguration {
     public RegistryConfig getRegistryConfig() {
         RegistryConfig registryConfig = new RegistryConfig();
         registryConfig.setProtocol("zookeeper");
-        registryConfig.setAddress("10.18.56.30:2181,10.18.57.168:2181,10.18.56.149:2181");
+        registryConfig.setAddress("zk1:2181,zk1:2181,zk1:2181");
         return registryConfig;
     }
 }

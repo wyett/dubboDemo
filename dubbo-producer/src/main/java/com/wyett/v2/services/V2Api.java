@@ -27,7 +27,7 @@ public class V2Api {
         // registry
         RegistryConfig registryConfig = new RegistryConfig();
         registryConfig.setProtocol("zookeeper");
-        registryConfig.setAddress("10.18.56.30:2181,10.18.57.168:2181,10.18.56.149:2181");
+        registryConfig.setAddress("zk1:2181,zk2:2181,zk3:2181");
 
         // protocal
         ProtocolConfig protocolConfig = new ProtocolConfig();
